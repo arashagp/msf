@@ -258,11 +258,11 @@ ul, li{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.msf_main
-
-.container{
+.msf_main .container{
     width: 45.5%;
     order: 2;
+    position: relative;
+    bottom: 4em;
 }
 
 .msf_sr{
@@ -341,8 +341,8 @@ ul, li{
     text-align: center;
     border-radius: 0 0 25px 25px;
     height: 360px;
-    color: #fff;
-    background-color: #9d4646;
+    color: #ffffff;
+    background-color: #333333;
 }
 
 .msf_post > div p{
@@ -434,10 +434,11 @@ ul, li{
 }
 
 .msf_post .msf_dpbx > strong a , .msf_post .msf_dpbx > b a{
-    background-color: rebeccapurple;
+    color: #000000;
+    background-color: #bfbfbf;
     display: block;
     padding: 1em;
-    border: 1px solid red;
+    border: 1px solid black;
     border-radius: 30px;
 }
 
@@ -458,7 +459,7 @@ ul, li{
     order: 1;
     flex-direction: column;
     position: relative;
-    bottom: 10.9em;
+    top: 0.3em;
 }
 
 .msf_sr .mf_maddah{
@@ -646,7 +647,7 @@ ul, li{
 
 .footer{
     position: absolute;
-    top: 420%;
+    top: 407%;
     width: 96.3%;
     right: 1.9%;
     height: 100px;
